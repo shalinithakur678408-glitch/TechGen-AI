@@ -1,0 +1,8 @@
+server/.env
+server/firebaseServiceAccount.json
+server/node_modules/
+
+TechGen/node_modules/
+TechGen/.expo/
+TechGen/dist/
+TechGen/web-build/
