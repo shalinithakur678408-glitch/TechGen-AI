@@ -1,5 +1,5 @@
 import { createSavedProject } from "../models/savedProjectModel";
-const API_URL = "http://localhost:5000";
+const API_URL = "https://techgen-ai.onrender.com";
 
 
 // ==============================
