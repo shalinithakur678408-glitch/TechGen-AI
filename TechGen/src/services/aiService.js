@@ -6,7 +6,7 @@ const generateProjectWithAI = async ({
 }) => {
   try {
     const response = await fetch(
-      "http://localhost:5000/generate-project",
+      "https://techgen-ai.onrender.com/generate-project",
       {
         method: "POST",
         headers: {
@@ -44,7 +44,7 @@ const generateTechnologyWithAI = async ({
 }) => {
   try {
     const response = await fetch(
-      "http://localhost:5000/learn-technology",
+      "https://techgen-ai.onrender.com/learn-technology",
       {
         method: "POST",
         headers: {
@@ -63,7 +63,7 @@ const generateTechnologyWithAI = async ({
     if (!response.ok) {
       throw new Error(
         data.message ||
-          "Failed to learn technology"
+        "Failed to learn technology"
       );
     }
 
@@ -86,7 +86,7 @@ const generateVivaWithAI = async ({
 }) => {
   try {
     const response = await fetch(
-      "http://localhost:5000/generate-viva",
+      "https://techgen-ai.onrender.com/generate-viva",
       {
         method: "POST",
         headers: {
@@ -105,7 +105,7 @@ const generateVivaWithAI = async ({
     if (!response.ok) {
       throw new Error(
         data.message ||
-          "Failed to generate viva"
+        "Failed to generate viva"
       );
     }
 
